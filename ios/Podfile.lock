@@ -1,0 +1,49 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.35.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.35.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.35.0):
+    - FBSDKCoreKit (~> 4.35.0)
+  - React (0.57.5):
+    - React/Core (= 0.57.5)
+  - React/Core (0.57.5):
+    - yoga (= 0.57.5.React)
+  - yoga (0.57.5.React)
+
+DEPENDENCIES:
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - React (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: 1a5b2e3ceb5ca827a53c54aa5f4a3480efff80d2
+  FBSDKLoginKit: 00a3d65d1226852f9d76dcddff01981e5e6d9c38
+  FBSDKShareKit: 2ddbd7e6432023fff957af62e23a3671b84319f7
+  React: 01aa04500b2957c2767e1dff9fe12e09444a467c
+  yoga: a5c0ba30ebe82c13612b4c9301ad29708b8978dc
+
+PODFILE CHECKSUM: 5ebf04f2ee5116da29c762a656ffe71e3d60347b
+
+COCOAPODS: 1.6.0
